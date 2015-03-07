@@ -1,12 +1,12 @@
 module.exports = (function(){
 
   var five   = require('johnny-five');
-  var board  = new five.Board();
+  var board  = new five.Board({repl: false});
 
   var _lights = {
     on: false,
     relay: false
-  }
+  };
 
   return {
 
@@ -39,6 +39,6 @@ module.exports = (function(){
       }
     }
 
-  }
+  };
 
 }());
