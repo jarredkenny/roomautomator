@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.10.7",
-    "johnny-five": "^0.8.37"
+    "johnny-five": "^0.8.89",
+    "serialport": "^1.7.4"
   }
 }

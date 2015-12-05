@@ -10,7 +10,7 @@ module.exports = (function(){
     },
 
     start: function(){
-      app.listen(3001, "192.168.2.18");
+      app.listen(3001, "192.168.2.22");
     }
 
   }

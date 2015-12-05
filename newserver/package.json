@@ -1,0 +1,16 @@
+{
+  "name": "room-automation-server",
+  "version": "0.0.1",
+  "description": "An api for controller your bedroom./",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarred Kenny",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "johnny-five": "^0.8.89"
+  }
+}
