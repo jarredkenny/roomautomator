@@ -1,16 +1,16 @@
 {
-  "name": "RoomAutomator",
-  "version": "0.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "room-automation-server",
+  "version": "0.0.1",
+  "description": "An api for controller your bedroom./",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
+  "author": "Jarred Kenny",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.10.7",
-    "johnny-five": "^0.8.89",
-    "serialport": "^1.7.4"
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "johnny-five": "^0.8.89"
   }
 }

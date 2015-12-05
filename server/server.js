@@ -70,6 +70,11 @@ board.on("ready", function(){
 
   });
 
+  // Turn all relays on by default.
+  for(var i = o; i < RELAYS.length; i++){
+    RELAYS[i].high();
+  }
+
   app.listen(port, function(){
     console.log("Server running on port: ", port);
   });
